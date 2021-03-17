@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.container-fluid{
+    background-color: rgb(242, 242, 253);   
+}
+.container-fluid .container{
+    padding-top: 20px;
+}
+
+.tab-section{
+    color: white;
+    
+}
+.tab-section a{
+    text-decoration: none;
+    color: white;
+    /* padding-left: 20px; */
+}
+.tab-section a:hover{
+    color: wheat;
+}
+.tab1{
+    background-color: rgb(3, 3, 51);
+    margin-bottom: 8px;
+    height: 70px;
+    border-radius: 10px 0 0 10px;
+    padding-top: 20px;
+}
+.tab2{
+    background-color: rgb(8, 100, 153);
+    margin-bottom: 8px;
+    height: 70px;
+    border-radius: 10px 0 0 10px;
+    padding-top: 20px;
+
+}
+.tab3{
+    background-color: rgb(43, 175, 199);
+    margin-bottom: 8px;
+    height: 70px;
+    border-radius: 10px 0 0 10px;
+    padding-top: 20px;
+}
+.tab4{
+    background-color: rgb(170, 170, 201);
+    margin-bottom: 8px;
+    height: 70px;
+    border-radius: 10px 0 0 10px;
+    padding-top: 20px;
+}
+.tab5{
+    background-color: rgb(184, 106, 33);
+    margin-bottom: 8px;
+    height: 70px;
+    border-radius: 10px 0 0 10px;
+    padding-top: 20px;
+}
+.tab6{
+    background-color: rgb(22, 22, 114);
+    margin-bottom: 8px;
+    height: 70px;
+    border-radius: 10px 0 0 10px;
+    padding-top: 20px;
+}
+
+.icon{
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.display{
+    background-color: white;
+    border-radius: 0 10px 10px 10px;
+}
+
+.banner1, .banner2, .banner3, .banner4, .banner5, .banner6 {
+    padding-top: 20px;
+}
+.hidden{
+    display: none;
+}
